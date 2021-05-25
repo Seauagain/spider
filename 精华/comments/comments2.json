@@ -1,0 +1,44 @@
+{
+    "rateDetail":{
+        "rateCount":{
+            "total":0,
+            "shop":0,
+            "picNum":0,
+            "used":0
+        },
+        "rateDanceInfo":{
+            "storeType":4,
+            "currentMilles":1621313421050,
+            "showChooseTopic":false,
+            "intervalMilles":0
+        },
+        "rateList":[],
+        "searchinfo":"",
+        "from":"search",
+        "paginator":{
+            "lastPage":0,
+            "page":0,
+            "items":0
+        },
+        "tags":[],
+        "total_num":0
+    },
+    "productInfo":{
+        "index":2,
+        "nid":"618717638595",
+        "category":"50011979",
+        "pid":"1612595631",
+        "banner":"cw直播Eaoron抗糖抗氧化祛黄提亮抗衰老青春\\u003cspan class\\u003dH\\u003e精华\\u003c/span\\u003e胶囊0.5ml*28粒",
+        "title":"cw直播Eaoron抗糖抗氧化祛黄提亮抗衰老青春精华胶囊0.5ml*28粒",
+        "price":"279.00",
+        "location":"澳大利亚",
+        "pay_num":"0人付款",
+        "comment_num":"2",
+        "user_id":"2658963920",
+        "store_name":"chemistwarehouse海外旗舰",
+        "detail_url":"https://detail.tmall.com/item.htm?id=618717638595&ad_id=&am_id=&cm_id=140105335569ed55e27b&pm_id=&abbucket=6#detail",
+        "comment_url":"https://detail.tmall.com/item.htm?id=618717638595&ad_id=&am_id=&cm_id=140105335569ed55e27b&pm_id=&abbucket=6&on_comment=1",
+        "platform":"tmall",
+        "product":"精华"
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "rateDetail":{
+        "rateCount":{
+            "total":0,
+            "shop":0,
+            "picNum":0,
+            "used":0
+        },
+        "rateDanceInfo":{
+            "storeType":4,
+            "currentMilles":1621330713138,
+            "showChooseTopic":false,
+            "intervalMilles":0
+        },
+        "rateList":[],
+        "searchinfo":"",
+        "from":"search",
+        "paginator":{
+            "lastPage":0,
+            "page":0,
+            "items":0
+        },
+        "tags":[],
+        "total_num":0
+    },
+    "productInfo":{
+        "index":2,
+        "nid":"621910181309",
+        "category":"121474010",
+        "pid":"",
+        "banner":"【cw直播】eaoron玻尿酸水光针补水保湿镇静舒缓提亮白\\u003cspan class\\u003dH\\u003e面膜\\u003c/span\\u003e5片*3",
+        "title":"【cw直播】eaoron玻尿酸水光针补水保湿镇静舒缓提亮白面膜5片*3",
+        "price":"299.00",
+        "location":"澳大利亚",
+        "pay_num":"0人付款",
+        "comment_num":"",
+        "user_id":"2658963920",
+        "store_name":"chemistwarehouse海外旗舰",
+        "detail_url":"https://detail.tmall.com/item.htm?id=621910181309&ad_id=&am_id=&cm_id=140105335569ed55e27b&pm_id=&abbucket=6#detail",
+        "comment_url":"https://detail.tmall.com/item.htm?id=621910181309&ad_id=&am_id=&cm_id=140105335569ed55e27b&pm_id=&abbucket=6&on_comment=1",
+        "platform":"tmall",
+        "product":"面膜"
+    }
+}
