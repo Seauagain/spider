@@ -1,0 +1,22 @@
+from Spider import Taobao
+
+
+cookies = {'search_cookie': '_samesite_flag_=true; cookie2=1a6ccfc917e1d4438b1f5251dbd7252c; hng=CN%7Czh-CN%7CCNY%7C156; t=e8649f57a3d3cd292837732c5c1203ed; UM_distinctid=1796ec06114720-0d49d809d05d23-2363163-384000-1796ec0611554a; alitrackid=www.taobao.com; thw=cn; _uab_collina=162106572883885648897318; CNZZDATA1256793290=40670637-1621055418-https%253A%252F%252Fwww.taobao.com%252F%7C1621071410; _header_fixed_=1; _tb_token_=fd9e5ee8bee57; xlly_s=1; cna=e+U3GLpj9XICAdrBsyTGgoNp; unb=2605562132; lgc=%5Cu590F%5Cu6D1B%5Cu534E%5Cu57CE; cookie17=UU6hQd1bCAkApw%3D%3D; dnk=%5Cu590F%5Cu6D1B%5Cu534E%5Cu57CE; tracknick=%5Cu590F%5Cu6D1B%5Cu534E%5Cu57CE; _l_g_=Ug%3D%3D; sg=%E5%9F%8E2a; _nk_=%5Cu590F%5Cu6D1B%5Cu534E%5Cu57CE; cookie1=AiTyev2vEtYrpDtGkfpKoJvjmye%2FiIB2deRxeUZ8SdI%3D; sgcookie=E100xf5zCw4pl5Ads%2B1i4LqU2jx%2BTl24ZraLimB8eQ%2BIjUYVEQmdl35LDayMTYOpWYnD2e%2FkB%2F0mGFpPMnPsnvWWYg%3D%3D; uc3=lg2=Vq8l%2BKCLz3%2F65A%3D%3D&id2=UU6hQd1bCAkApw%3D%3D&nk2=rM6y1GhO9ac%3D&vt3=F8dCuwgmluKwe%2BdXuwk%3D; csg=b35471d7; skt=c80c59bb2a5af2c6; existShop=MTYyMTMwMDc2MA%3D%3D; uc4=id4=0%40U2xsAT7Eedw8H%2Fr1qd%2FB49fz1Nuu&nk4=0%40ruCUN72099KPXrG7Cc0VjzYH3g%3D%3D; _cc_=URm48syIZQ%3D%3D; enc=7H4ScOHwRVrpLkwVSm2kJ%2FkpDlSJfKJ5Z556cxeU7hgPPmnYs9xCpgMOJODYkMEAZ3UbSsNz%2Bq8BLuzSOa1MhQ%3D%3D; lastalitrackid=login.taobao.com; mt=ci=2_1; _m_h5_tk=5ab87500240973a87b226375913d300d_1621320200751; _m_h5_tk_enc=af7f841a02972ae1b2bb453ccddbda3a; uc1=cookie16=W5iHLLyFPlMGbLDwA%2BdvAGZqLg%3D%3D&existShop=false&cookie21=Vq8l%2BKCLjA%2Bl&pas=0&cookie15=URm48syIIVrSKA%3D%3D&cookie14=Uoe2zETs7ASItQ%3D%3D; x5sec=7b227365617263686170703b32223a22316465616362393262623935393732303132616164356436343634333739373243494b4b6a5955474549616a70737a6e793871557a414561444449324d4455314e6a49784d7a49374d54436e68594b652f502f2f2f2f3842227d; JSESSIONID=5842AD32C61CB6074C62C768CBDBD202; isg=BJKSS_z7Jo69HFrODa-4YN_241h0o5Y9INkE51zr1cUwbzNpRTCQTdJJ38vTHw7V; l=eBPcDDOPj2CGzpIwBOfZlurza77TcIRfguPzaNbMiOCPsyfH5QINB6sD4_8MCnGVHstBJ3WWjis_BfTGvyhqJxpsw3k_J_4x3dC..; tfstk=czCOBJazrkqGw88dzOe3GsGuj-alZDz9YVTtMPTjRrJg7FGAip1lwTf8Cho99yC..',
+           'ajax_cookie': 'cookie2=1a6ccfc917e1d4438b1f5251dbd7252c; cna=e+U3GLpj9XICAdrBsyTGgoNp; dnk=%5Cu590F%5Cu6D1B%5Cu534E%5Cu57CE; tracknick=%5Cu590F%5Cu6D1B%5Cu534E%5Cu57CE; lid=%E5%A4%8F%E6%B4%9B%E5%8D%8E%E5%9F%8E; lgc=%5Cu590F%5Cu6D1B%5Cu534E%5Cu57CE; UM_distinctid=1796ec0bd6d59b-08531605627be3-2363163-384000-1796ec0bd6ede6; hng=CN%7Czh-CN%7CCNY%7C156; t=e8649f57a3d3cd292837732c5c1203ed; sm4=310112; _m_h5_tk=f6f3a0dfaaedb09f8048779769d71806_1621181310673; _m_h5_tk_enc=9f6d6d540487efd91ec385b5e430d065; _tb_token_=fd9e5ee8bee57; xlly_s=1; x5sec=7b22726174656d616e616765723b32223a22656331396362336363333232353536653861356631336438336265363235653643494b6d6a495547454e50332b4c2b6a69742b376977457737626e2f3350372f2f2f2f2f41513d3d227d; uc1=cookie14=Uoe2zETtbN0v0Q%3D%3D&pas=0&cookie15=V32FPkk%2Fw0dUvg%3D%3D&cookie16=VT5L2FSpNgq6fDudInPRgavC%2BQ%3D%3D&cookie21=VT5L2FSpczFp&existShop=false; uc3=lg2=Vq8l%2BKCLz3%2F65A%3D%3D&id2=UU6hQd1bCAkApw%3D%3D&nk2=rM6y1GhO9ac%3D&vt3=F8dCuwgmluKwe%2BdXuwk%3D; _l_g_=Ug%3D%3D; uc4=id4=0%40U2xsAT7Eedw8H%2Fr1qd%2FB49fz1Nuu&nk4=0%40ruCUN72099KPXrG7Cc0VjzYH3g%3D%3D; unb=2605562132; cookie1=AiTyev2vEtYrpDtGkfpKoJvjmye%2FiIB2deRxeUZ8SdI%3D; login=true; cookie17=UU6hQd1bCAkApw%3D%3D; _nk_=%5Cu590F%5Cu6D1B%5Cu534E%5Cu57CE; sgcookie=E100xf5zCw4pl5Ads%2B1i4LqU2jx%2BTl24ZraLimB8eQ%2BIjUYVEQmdl35LDayMTYOpWYnD2e%2FkB%2F0mGFpPMnPsnvWWYg%3D%3D; sg=%E5%9F%8E2a; csg=b35471d7; enc=7H4ScOHwRVrpLkwVSm2kJ%2FkpDlSJfKJ5Z556cxeU7hgPPmnYs9xCpgMOJODYkMEAZ3UbSsNz%2Bq8BLuzSOa1MhQ%3D%3D; tfstk=csgGB7XGfcr6wZrnVFas6XVi1dhcZSIaeqor8qkzZSvKd7gFiwsF4H0HtSHiki1..; l=eBgGGSyeOtpwFwH3BO5alurza77TNIdbzsPzaNbMiInca6ZCiKz3kOCCmaZMrdtjgtfFEeKPFhjffReHSl4_Wt_ceTwhKXIpBl96-; isg=BBsbPWRW_wEP0jy4ILBW-Nmkqn-F8C_ywXp9IA1ZXppf7DnOlMOfQDSqhkziTIfq'
+           }
+# 程序报错，意味着cookie过期
+product_name = '面霜'
+save = False
+product = Taobao(product_name, ifsave=save)
+if save:
+    product.SaveItems()
+# rank = 30  # 淘宝综合排序前30，建议1-48，淘宝一页最多48个商品
+# product.SaveAllComments(rank)
+# product.comments2csv(rank)
+order = 30  # order：推荐榜单前**位
+# userkeys = ['保湿', '补水', '美白', '油皮']  # 输入使用者想要的功效
+userkeys = []
+# product.Analyze(userkeys, order)
+# print(product.hotkeys)  # 打印此产品的用户评论热门词
+product.Show(userkey='不油腻', userkeys=userkeys,
+             method='approval_num', order=order, print_csv=True, save_csv=True)
